@@ -7,8 +7,8 @@ public class ContaBancaria {
         Conta c2 = new Conta(514f, "corrente", "Benedeta", 500, true);
         c1.depositar(200);
         c2.sacar(100);
-        c1.pagarMensalidade(15);
-        c2.pagarMensalidade(20);
+        c1.pagarMensalidade();
+        c2.pagarMensalidade();
     }
     
 }
